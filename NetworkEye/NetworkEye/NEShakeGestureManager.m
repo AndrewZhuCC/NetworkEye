@@ -60,7 +60,7 @@
 - (void)presentInformationViewController {
     
     NEHTTPEyeViewController *viewController = [[NEHTTPEyeViewController alloc] init];
-    [[[[[UIApplication sharedApplication] delegate] window] rootViewController]
+    [[[[UIApplication sharedApplication] keyWindow] rootViewController]
      presentViewController:viewController animated:YES completion:nil];
     
 }

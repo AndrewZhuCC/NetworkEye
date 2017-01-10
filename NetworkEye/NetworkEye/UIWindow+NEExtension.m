@@ -11,6 +11,7 @@
 
 @implementation UIWindow (NEExtension)
 
+#if defined(SHAKEENABLE)
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
 #if defined(DEBUG)||defined(_DEBUG)
  
@@ -40,5 +41,6 @@
 #endif
   
 }
+#endif
 
 @end

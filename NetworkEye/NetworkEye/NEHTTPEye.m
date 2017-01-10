@@ -63,7 +63,7 @@
 }
 
 + (void)load {
- 
+    [self setEnabled:[self isEnabled]];
 }
 
 + (BOOL)canInitWithRequest:(NSURLRequest *)request {
