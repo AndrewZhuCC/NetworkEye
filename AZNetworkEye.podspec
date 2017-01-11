@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "AZNetworkEye"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "NetworkEye - a iOS network debug library ,It can monitor HTTP requests within the App and displays information related to the request."
   s.homepage     = "https://github.com/coderyi/NetworkEye"
   s.license      = "MIT"
   s.authors      = { "coderyi" => "coderyi@163.com" }
-  s.source       = { :git => "https://github.com/AndrewZhuCC/NetworkEye.git", :tag => "1.0.7" }
+  s.source       = { :git => "https://github.com/AndrewZhuCC/NetworkEye.git", :tag => #{s.version} }
   s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
   s.platform     = :ios, '7.0'
   s.requires_arc = true
