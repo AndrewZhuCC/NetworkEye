@@ -141,6 +141,7 @@
         flowCount=0.0;
     }
     flowCount=flowCount+self.response.expectedContentLength/(1024.0*1024.0);
+    flowCount += self.request.HTTPBody.length;
     [[NSUserDefaults standardUserDefaults] setDouble:flowCount forKey:@"flowCount"];
     [[NSUserDefaults standardUserDefaults] synchronize];//https://github.com/coderyi/NetworkEye/pull/6
     [[NEHTTPModelManager defaultManager] addModel:ne_HTTPModel];
