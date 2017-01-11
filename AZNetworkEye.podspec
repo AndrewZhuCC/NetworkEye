@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/coderyi/NetworkEye"
   s.license      = "MIT"
   s.authors      = { "coderyi" => "coderyi@163.com" }
-  s.source       = { :git => "https://github.com/AndrewZhuCC/NetworkEye.git", :tag => #{s.version} }
+  s.source       = { :git => "https://github.com/AndrewZhuCC/NetworkEye.git", :tag => "1.0.8" }
   s.frameworks   = 'Foundation', 'CoreGraphics', 'UIKit'
   s.platform     = :ios, '7.0'
   s.requires_arc = true
